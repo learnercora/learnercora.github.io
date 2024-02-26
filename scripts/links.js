@@ -1,5 +1,5 @@
-const baseURL = "https://learnercora.github.io/wdd230/";
-const linksURL = "https://learnercora.github.io/wdd230/data/links.json";
+const baseURL = "https://learnercora.github.io/learnercora.github.io/";
+const linksURL = "https://learnercora.github.io/learnercora.github.io/data/links.json";
 
 const menu = document.querySelector('section ul');
 // console.log(menu);
