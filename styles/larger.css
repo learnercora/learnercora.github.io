@@ -1,0 +1,32 @@
+@media screen and (min-width: 700px) {
+    header {
+        background-color: darkblue;
+        color: #fff;
+    }
+    main {
+        grid-template-columns: 2fr 1fr;
+    }
+    main .card {
+        grid-column: auto;
+        margin: 0 0.5rem;
+    }
+    .navigation a {  /* nav{ */
+        display: flex;
+        flex: 1 1 100%;
+    }
+    /* nav a {
+		flex: 1 1 100%;
+	} */
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+}
