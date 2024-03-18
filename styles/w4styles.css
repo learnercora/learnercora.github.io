@@ -1,0 +1,40 @@
+@keyframes myanima {
+0% {
+    background-color: orange;
+    transform: rotate(20deg);
+}
+25% {
+    background-color: orangered;
+    transform: scale(2,3);
+}
+50% {
+    background-color: navy;
+    transform: rotate(-20deg);
+}
+75% {
+    background-color: darkgreen;
+    transform: scale(2,3);
+}
+100% {
+    background-color: darkcyan;
+    transform: rotate(20deg);
+}
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.box {
+    background-color: navy;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    font-size: larger;
+    animation-name: myanima;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
