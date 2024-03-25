@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+}
+h2 {
+    font-weight: 900;
+    color: darkgreen;
+}
+button {
+    margin: 1rem;
+    color: #fff;
+    background-color: darkred;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+}
+
+/* canvas */
+h2 a {
+    text-decoration: none;
+    color: #000;
+}
